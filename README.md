@@ -1,2 +1,6 @@
-# docfiles
-Configuración de escritorio Linux con Bspwm,  Polybar, Rofi, Dmenu y Power menu
+#DOCFILES
+
+<p align="center">
+ <br></br>
+ <img src="https://www.python.org/static/img/python-logo.png">
+</p>
