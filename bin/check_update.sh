@@ -1,9 +1,9 @@
 #!/bin/sh
 
-UPDATE=$(apt-get -s upgrade | grep actualizados | awk '{print $1}')
+UPDATE=$(apt list --upgradable 2>/dev/null | wc -l)
 
-if [ "UPDATE" > 0 ]; then
-	echo "%{F#2495e7} %{F#ffffff}"$(apt-get -s upgrade | grep actualizados | awk '{print $1}')
+if [ "$UPDATE" = "1" ]; then
+	echo "%{F#2495e7} %{F#ffffff}0"
 else
-	 echo "%{F#2495e7} %{F#ffffff} 0"
+	 echo "%{F#2495e7} %{F#ffffff}"$UPDATE
 fi
