@@ -4,11 +4,11 @@
 
 # terminal emulator
 super + Return
-	konsole
+	ptyxis
 
 # program launcher
 super + d
-	rofi -show drun
+	~/.config/polybar/shapes/scripts/launcher.sh
 
 super + e
 	microsoft-edge
@@ -18,7 +18,7 @@ super + Escape
 	pkill -USR1 -x sxhkd
 
 super + p
-	rofi -show power-menu -modi power-menu:~/.config/rofi/rofi-power-menu/rofi-power-menu
+	~/.config/polybar/shapes/scripts/powermenu.sh
 #
 # bspwm hotkeys
 #
