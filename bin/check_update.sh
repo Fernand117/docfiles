@@ -1,5 +1,7 @@
 #!/bin/sh
 
+$(apt update -y 2>/dev/null)
+
 UPDATE=$(apt list --upgradable 2>/dev/null | wc -l)
 
 if [ "$UPDATE" = "1" ]; then
