@@ -1,14 +1,14 @@
-/* colors */
+/* colors (Blue-Gray / Slate Theme) */
 
 * {
   al:          #00000000;
   bg:          #1F1F1FFF;
-  bg1:         #1565C0FF;
-  bg2:         #1976D2FF;
-  bg3:         #1E88E5FF;
+  bg1:         #37474FFF;
+  bg2:         #455A64FF;
+  bg3:         #546E7AFF;
   fg:          #FFFFFFFF;
-  ac:          #2196F3FF;
-  se:          #1565C0FF;
+  ac:          #607D8BFF;
+  se:          #37474FFF;
   background:  #1F1F1FFF;
   foreground:  #FFFFFFFF;
 }
